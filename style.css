@@ -1,4 +1,3 @@
-/* ========== GENERAL ========== */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +9,6 @@ section {
     padding: 2em;
 }
 
-/* ========== NAVIGATION ========== */
 nav {
     background-color: white;
     display: flex;
@@ -38,7 +36,6 @@ nav a.active {
     font-weight: bold;
 }
 
-/* ========== HERO SECTION ========== */
 .hero {
     background-image: url("images/pizza-banner.jpg");
     background-size: cover;
@@ -62,14 +59,12 @@ nav a.active {
     margin-top: 0.5em;
 }
 
-/* ========== ABOUT SECTION ========== */
 .about p {
     max-width: 700px;
     margin: auto;
     line-height: 1.6;
 }
 
-/* ========== POPULAR PIZZA CARDS ========== */
 .popular .drinks {
     display: flex;
     flex-wrap: wrap;
@@ -99,7 +94,6 @@ nav a.active {
     margin-bottom: 0.5em;
 }
 
-/* ========== PIZZA GALLERY ========== */
 .banner-row {
     display: flex;
     justify-content: center;
@@ -121,7 +115,6 @@ nav a.active {
     transform: scale(1.05);
 }
 
-/* ========== PIZZA LIST ========== */
 .list {
     text-align: center;
 }
@@ -151,7 +144,6 @@ nav a.active {
     color: #e53935;
 }
 
-/* ========== YOUR CHOICE BOX ========== */
 .choice {
     text-align: center;
 }
@@ -164,7 +156,6 @@ nav a.active {
     margin: 1em auto 2em auto;
 }
 
-/* ========== FOOTER ========== */
 footer {
     background-color: #d8c2f3;
     padding: 2em;
